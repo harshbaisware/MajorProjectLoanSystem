@@ -1,10 +1,9 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="LoanHomePage.aspx.cs" Inherits="MajorProjectLoanSystem.LoanHomePage" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="HomePage.aspx.cs" Inherits="MajorProjectLoanSystem.HomePage" %>
 
 <!DOCTYPE html>
-
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-        <meta charset="utf-8">
+<html lang="en">
+<head>
+    <meta charset="utf-8">
     <title>Loan Trusty HomePage</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
@@ -29,14 +28,12 @@
 
     <!-- Main Stylesheet File -->
     <link href="css/style1.css" rel="stylesheet">
-</head>
-<body>
-   <!-- <form id="form1" runat="server">
-        <div>
-        </div>
-    </form>-->
 
-        <!--==========================
+</head>
+
+<body>
+
+    <!--==========================
     Header
     ============================-->
     <header id="header" class="fixed-top">
@@ -61,13 +58,7 @@
                     </li>
                     <li><a href="#Track">Track Application</a></li>
                     <li><a href="#contact">Contact Us</a></li>
-                    <li class="drop-down">
-                        <a href="#" class="login-btn" style="margin-top:0px;"><asp:Label ID="lblProfileId" runat="server" Text="User Profile"></asp:Label></a>
-                        <ul>
-                            <li><a href="Profile.aspx">Edit Profile</a></li>
-                            <li><a href="HomePage.aspx">Sign out</a></li>
-                        </ul>
-                    </li>
+                    <a href="LoginSignup.aspx" class="login-btn">Login/Sign Up</a>
 </ul>
             </nav><!-- .main-nav -->
 
@@ -200,7 +191,7 @@
                                 </tr>
                             </table>
                             <div>
-                                <a href="PersonalLoanDetails.aspx"><button class="buttons">Apply</button></a>
+                                <button class="buttons">Apply</button>
                             </div>
                         </div>
                     </div>
@@ -230,7 +221,7 @@
                                 </tr>
                             </table>
                             <div>
-                                <a href="EducationLoanDetails.aspx"><button class="buttons">Apply</button></a>
+                                <button class="buttons">Apply</button>
                             </div>
                         </div>
                     </div>
@@ -260,7 +251,7 @@
                                 </tr>
                             </table>
                             <div>
-                                <a href="HomeLoanDetails.aspx"><button class="buttons">Apply</button></a>
+                                <button class="buttons">Apply</button>
                             </div>
                         </div>
                     </div>
@@ -290,7 +281,7 @@
                                 </tr>
                             </table>
                             <div>
-                                <a href="GoldLoanDetails.aspx"><button class="buttons">Apply</button></a>
+                                <button class="buttons">Apply</button>
                             </div>
                         </div>
                     </div>
@@ -382,7 +373,7 @@
                     <p>You can Track your applied Loan application Status here.</p>
                 </div>
                 <div class="wrapper">
-                    <a href="TrackStatus.aspx"><button class="buttons">Check Application Status</button></a>
+                    <a href="Track.html"><button class="buttons">Check Application Status</button></a>
                 </div>
 
             </div>
@@ -520,3 +511,4 @@
 
 </body>
 </html>
+

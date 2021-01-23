@@ -73,15 +73,10 @@
     <Content Include="css\style2.css" />
     <Content Include="css\style3.css" />
     <Content Include="css\style4.css" />
-    <Content Include="Declar.aspx" />
-    <Content Include="EduCourse.aspx" />
-    <Content Include="EmpEduHome.aspx" />
-    <Content Include="EmpGold.aspx" />
-    <Content Include="FinGoldHome.aspx" />
-    <Content Include="FinPersonal.aspx" />
-    <Content Include="Gstin.aspx" />
-    <Content Include="Home.aspx" />
-    <Content Include="HomePage.html" />
+    <Content Include="EducationLoanDetails.aspx" />
+    <Content Include="GoldLoanDetails.aspx" />
+    <Content Include="HomeLoanDetails.aspx" />
+    <Content Include="HomePage.aspx" />
     <Content Include="img\about-extra-1.svg" />
     <Content Include="img\about-extra-2.svg" />
     <Content Include="img\about-img.svg" />
@@ -89,20 +84,10 @@
     <Content Include="img\intro-img.svg" />
     <Content Include="img\logo.png" />
     <Content Include="js\main.js" />
-    <Content Include="LoanEdu.aspx" />
     <Content Include="LoanHomePage.aspx" />
-    <Content Include="LoanHomePage.html" />
-    <Content Include="LoginSignup.html" />
-    <Content Include="Nominee.aspx" />
-    <Content Include="Nri.aspx" />
+    <Content Include="LoginSignup.aspx" />
+    <Content Include="PersonalLoanDetails.aspx" />
     <Content Include="Profile.aspx" />
-    <Content Include="Property.aspx" />
-    <Content Include="PropGold.aspx" />
-    <Content Include="PropHome.aspx" />
-    <Content Include="PropPersonal.aspx" />
-    <Content Include="PurpGold.aspx" />
-    <Content Include="PurpPersonal.aspx" />
-    <Content Include="Reference.aspx" />
     <Content Include="scripts\bootstrap.js" />
     <Content Include="scripts\bootstrap.min.js" />
     <None Include="scripts\jquery-3.4.1.intellisense.js" />
@@ -118,72 +103,37 @@
     <Content Include="scripts\jquery.validate.unobtrusive.js" />
     <Content Include="scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="scripts\modernizr-2.8.3.js" />
-    <Content Include="TrackStatus.html" />
+    <Content Include="TrackStatus.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Declar.aspx.cs">
-      <DependentUpon>Declar.aspx</DependentUpon>
+    <Compile Include="EducationLoanDetails.aspx.cs">
+      <DependentUpon>EducationLoanDetails.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Declar.aspx.designer.cs">
-      <DependentUpon>Declar.aspx</DependentUpon>
+    <Compile Include="EducationLoanDetails.aspx.designer.cs">
+      <DependentUpon>EducationLoanDetails.aspx</DependentUpon>
     </Compile>
-    <Compile Include="EduCourse.aspx.cs">
-      <DependentUpon>EduCourse.aspx</DependentUpon>
+    <Compile Include="GoldLoanDetails.aspx.cs">
+      <DependentUpon>GoldLoanDetails.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="EduCourse.aspx.designer.cs">
-      <DependentUpon>EduCourse.aspx</DependentUpon>
+    <Compile Include="GoldLoanDetails.aspx.designer.cs">
+      <DependentUpon>GoldLoanDetails.aspx</DependentUpon>
     </Compile>
-    <Compile Include="EmpEduHome.aspx.cs">
-      <DependentUpon>EmpEduHome.aspx</DependentUpon>
+    <Compile Include="HomeLoanDetails.aspx.cs">
+      <DependentUpon>HomeLoanDetails.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="EmpEduHome.aspx.designer.cs">
-      <DependentUpon>EmpEduHome.aspx</DependentUpon>
+    <Compile Include="HomeLoanDetails.aspx.designer.cs">
+      <DependentUpon>HomeLoanDetails.aspx</DependentUpon>
     </Compile>
-    <Compile Include="EmpGold.aspx.cs">
-      <DependentUpon>EmpGold.aspx</DependentUpon>
+    <Compile Include="HomePage.aspx.cs">
+      <DependentUpon>HomePage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="EmpGold.aspx.designer.cs">
-      <DependentUpon>EmpGold.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="FinGoldHome.aspx.cs">
-      <DependentUpon>FinGoldHome.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="FinGoldHome.aspx.designer.cs">
-      <DependentUpon>FinGoldHome.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="FinPersonal.aspx.cs">
-      <DependentUpon>FinPersonal.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="FinPersonal.aspx.designer.cs">
-      <DependentUpon>FinPersonal.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Gstin.aspx.cs">
-      <DependentUpon>Gstin.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Gstin.aspx.designer.cs">
-      <DependentUpon>Gstin.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Home.aspx.cs">
-      <DependentUpon>Home.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Home.aspx.designer.cs">
-      <DependentUpon>Home.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="LoanEdu.aspx.cs">
-      <DependentUpon>LoanEdu.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="LoanEdu.aspx.designer.cs">
-      <DependentUpon>LoanEdu.aspx</DependentUpon>
+    <Compile Include="HomePage.aspx.designer.cs">
+      <DependentUpon>HomePage.aspx</DependentUpon>
     </Compile>
     <Compile Include="LoanHomePage.aspx.cs">
       <DependentUpon>LoanHomePage.aspx</DependentUpon>
@@ -192,19 +142,19 @@
     <Compile Include="LoanHomePage.aspx.designer.cs">
       <DependentUpon>LoanHomePage.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Nominee.aspx.cs">
-      <DependentUpon>Nominee.aspx</DependentUpon>
+    <Compile Include="LoginSignup.aspx.cs">
+      <DependentUpon>LoginSignup.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Nominee.aspx.designer.cs">
-      <DependentUpon>Nominee.aspx</DependentUpon>
+    <Compile Include="LoginSignup.aspx.designer.cs">
+      <DependentUpon>LoginSignup.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Nri.aspx.cs">
-      <DependentUpon>Nri.aspx</DependentUpon>
+    <Compile Include="PersonalLoanDetails.aspx.cs">
+      <DependentUpon>PersonalLoanDetails.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Nri.aspx.designer.cs">
-      <DependentUpon>Nri.aspx</DependentUpon>
+    <Compile Include="PersonalLoanDetails.aspx.designer.cs">
+      <DependentUpon>PersonalLoanDetails.aspx</DependentUpon>
     </Compile>
     <Compile Include="Profile.aspx.cs">
       <DependentUpon>Profile.aspx</DependentUpon>
@@ -214,54 +164,12 @@
       <DependentUpon>Profile.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Property.aspx.cs">
-      <DependentUpon>Property.aspx</DependentUpon>
+    <Compile Include="TrackStatus.aspx.cs">
+      <DependentUpon>TrackStatus.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Property.aspx.designer.cs">
-      <DependentUpon>Property.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="PropGold.aspx.cs">
-      <DependentUpon>PropGold.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="PropGold.aspx.designer.cs">
-      <DependentUpon>PropGold.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="PropHome.aspx.cs">
-      <DependentUpon>PropHome.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="PropHome.aspx.designer.cs">
-      <DependentUpon>PropHome.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="PropPersonal.aspx.cs">
-      <DependentUpon>PropPersonal.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="PropPersonal.aspx.designer.cs">
-      <DependentUpon>PropPersonal.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="PurpGold.aspx.cs">
-      <DependentUpon>PurpGold.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="PurpGold.aspx.designer.cs">
-      <DependentUpon>PurpGold.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="PurpPersonal.aspx.cs">
-      <DependentUpon>PurpPersonal.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="PurpPersonal.aspx.designer.cs">
-      <DependentUpon>PurpPersonal.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Reference.aspx.cs">
-      <DependentUpon>Reference.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Reference.aspx.designer.cs">
-      <DependentUpon>Reference.aspx</DependentUpon>
+    <Compile Include="TrackStatus.aspx.designer.cs">
+      <DependentUpon>TrackStatus.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
