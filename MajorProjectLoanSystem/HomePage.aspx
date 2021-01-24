@@ -191,7 +191,7 @@
                                 </tr>
                             </table>
                             <div>
-                                <button class="buttons">Apply</button>
+                                <a href="LoginSignup.aspx"><button class="buttons">Apply</button></a>
                             </div>
                         </div>
                     </div>
@@ -221,7 +221,7 @@
                                 </tr>
                             </table>
                             <div>
-                                <button class="buttons">Apply</button>
+                                <a href="LoginSignup.aspx"><button class="buttons">Apply</button></a>
                             </div>
                         </div>
                     </div>
@@ -251,7 +251,7 @@
                                 </tr>
                             </table>
                             <div>
-                                <button class="buttons">Apply</button>
+                                <a href="LoginSignup.aspx"><button class="buttons">Apply</button></a>
                             </div>
                         </div>
                     </div>
@@ -281,7 +281,7 @@
                                 </tr>
                             </table>
                             <div>
-                                <button class="buttons">Apply</button>
+                                <a href="LoginSignup.aspx"><button class="buttons">Apply</button></a>
                             </div>
                         </div>
                     </div>
@@ -363,7 +363,7 @@
 
         <!--==========================
               Track Application Section
-            ============================-->
+        ============================-->
         <section id="Track" class="section-bgs">
 
             <div class="container">
@@ -373,7 +373,7 @@
                     <p>You can Track your applied Loan application Status here.</p>
                 </div>
                 <div class="wrapper">
-                    <a href="Track.html"><button class="buttons">Check Application Status</button></a>
+                    <a href="LoginSignup.aspx"><button class="buttons">Check Application Status</button></a>
                 </div>
 
             </div>
