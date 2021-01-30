@@ -164,8 +164,13 @@
                     <p>If money is the problem, make us the solution</p>
                 </header>
 
+<<<<<<< HEAD
                 <div class="row">
 
+=======
+                <form id="apply_loan" runat="server">
+                <div class="row">
+>>>>>>> 301ea4275b126f38e68dc63c1cd16ff6b3e2d181
                     <div id="Personal" class="col-md-6 col-lg-5 offset-lg-1 wow bounceInUp" data-wow-duration="1.4s">
                         <div class="box">
                             <div class="icon"><i class="fa fa-user-o" style="color: #ff689b;"></i></div>
@@ -191,7 +196,11 @@
                                 </tr>
                             </table>
                             <div>
+<<<<<<< HEAD
                                 <a href="LoginSignup.aspx"><button class="buttons">Apply</button></a>
+=======
+                                <asp:Button ID="perloan_btn" Text="Apply" runat="server" OnClick="perloan_btn_Click"/>
+>>>>>>> 301ea4275b126f38e68dc63c1cd16ff6b3e2d181
                             </div>
                         </div>
                     </div>
@@ -221,7 +230,11 @@
                                 </tr>
                             </table>
                             <div>
+<<<<<<< HEAD
                                 <a href="LoginSignup.aspx"><button class="buttons">Apply</button></a>
+=======
+                                <asp:Button ID="eduloan_btn" Text="Apply" runat="server" OnClick="eduloan_btn_Click"/>
+>>>>>>> 301ea4275b126f38e68dc63c1cd16ff6b3e2d181
                             </div>
                         </div>
                     </div>
@@ -251,7 +264,11 @@
                                 </tr>
                             </table>
                             <div>
+<<<<<<< HEAD
                                 <a href="LoginSignup.aspx"><button class="buttons">Apply</button></a>
+=======
+                                <asp:Button ID="homeloan_btn" Text="Apply" runat="server" OnClick="homeloan_btn_Click"/>
+>>>>>>> 301ea4275b126f38e68dc63c1cd16ff6b3e2d181
                             </div>
                         </div>
                     </div>
@@ -281,12 +298,20 @@
                                 </tr>
                             </table>
                             <div>
+<<<<<<< HEAD
                                 <a href="LoginSignup.aspx"><button class="buttons">Apply</button></a>
+=======
+                                <asp:Button ID="goldloan_btn" Text="Apply" runat="server" OnClick="goldloan_btn_Click"/>
+>>>>>>> 301ea4275b126f38e68dc63c1cd16ff6b3e2d181
                             </div>
                         </div>
                     </div>
 
                 </div>
+<<<<<<< HEAD
+=======
+               </form>
+>>>>>>> 301ea4275b126f38e68dc63c1cd16ff6b3e2d181
 
             </div>
         </section><!-- #services -->
@@ -363,7 +388,11 @@
 
         <!--==========================
               Track Application Section
+<<<<<<< HEAD
         ============================-->
+=======
+            ============================-->
+>>>>>>> 301ea4275b126f38e68dc63c1cd16ff6b3e2d181
         <section id="Track" class="section-bgs">
 
             <div class="container">
@@ -373,7 +402,11 @@
                     <p>You can Track your applied Loan application Status here.</p>
                 </div>
                 <div class="wrapper">
+<<<<<<< HEAD
                     <a href="LoginSignup.aspx"><button class="buttons">Check Application Status</button></a>
+=======
+                    <a href="Track.html"><button class="buttons">Check Application Status</button></a>
+>>>>>>> 301ea4275b126f38e68dc63c1cd16ff6b3e2d181
                 </div>
 
             </div>

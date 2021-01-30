@@ -10,8 +10,22 @@ namespace MajorProjectLoanSystem
     public partial class GoldLoanDetails : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
+<<<<<<< HEAD
         {
 
+=======
+        {
+
+            // Check Session Username is Set to restrict direct URL access
+            if (Session["UserName"] != null)
+            {
+                lblProfileId.Text = "Hi, " + Session["UserName"].ToString();
+            }
+            else
+            {
+                Response.Redirect("~/LoginSignup.aspx");
+            }
+>>>>>>> 301ea4275b126f38e68dc63c1cd16ff6b3e2d181
         }
     }
 }

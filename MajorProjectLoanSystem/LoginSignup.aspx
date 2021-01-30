@@ -15,6 +15,10 @@
     ============================-->
     <div class="wrapper">
         <div class="logo float-left">
+<<<<<<< HEAD
+=======
+            <asp:Label ID="messegeshow" runat="server" ForeColor="Red" class="text-center"></asp:Label><br />
+>>>>>>> 301ea4275b126f38e68dc63c1cd16ff6b3e2d181
             <a href="HomePage.aspx"><img src="img/logo.png" alt="" class="img-fluid"></a>
         </div>
         <div class="title-text">
@@ -34,6 +38,7 @@
                 <div class="slider-tab">
                 </div>
             </div>
+<<<<<<< HEAD
             <div class="form-inner">
                 <form action="#" class="login">
                     <div class="field">
@@ -41,11 +46,21 @@
                     </div>
                     <div class="field">
                         <input type="password" placeholder="Password" required>
+=======
+            <div class="form-inner">  
+                <form class="login" runat="server">
+                    <div class="field">
+                        <asp:Textbox placeholder="Email Address" required runat="server" ID="txtuser"></asp:Textbox>
+                    </div>
+                    <div class="field">
+                        <asp:Textbox textmode="password" placeholder="Password" required runat="server" ID="txtpass"></asp:Textbox>
+>>>>>>> 301ea4275b126f38e68dc63c1cd16ff6b3e2d181
                     </div>
                     <div class="pass-link">
                         <a href="#">Forgot password?</a>
                     </div>
                     <div class="field btn">
+<<<<<<< HEAD
                         <div class="btn-layer">
                         </div>
                         <input type="submit" value="Login">
@@ -55,6 +70,17 @@
                     </div>
                 </form>
                 <form action="#" class="signup">
+=======
+                        <div class="btn-layer" style="left: -100%; top: 0px">
+                        </div>
+                        <asp:Button ID="loginbtn" runat="server" Text="Login" OnClick="loginbtn_Click" />
+                    </div>
+                    <div class="signup-link">
+                        Not a member? <a href="#">Signup now</a>
+                    </div>
+                </form>
+                <!--<form action="#" class="signup">--
+>>>>>>> 301ea4275b126f38e68dc63c1cd16ff6b3e2d181
                     <div class="field">
                         <input type="text" placeholder="Email Address" required>
                     </div>
@@ -69,7 +95,11 @@
                         </div>
                         <input type="submit" value="Signup">
                     </div>
+<<<<<<< HEAD
                 </form>
+=======
+                <!--</form>-->
+>>>>>>> 301ea4275b126f38e68dc63c1cd16ff6b3e2d181
             </div>
         </div>
     </div>

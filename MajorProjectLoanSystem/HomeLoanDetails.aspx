@@ -54,17 +54,29 @@
         <div class="container">
 
             <div class="logo float-left">
+<<<<<<< HEAD
                 <a href="LoanHomePage.aspx" class="scrollto"><img src="img/logo.png" alt="" class="img-fluid"></a>
+=======
+                <a href="LoanHomePage.aspx" class="scrollto"><img src="img/logo.png" alt="" class="img-fluid"/></a>
+>>>>>>> 301ea4275b126f38e68dc63c1cd16ff6b3e2d181
             </div>
 
             <nav class="main-nav float-right d-none d-lg-block">
                 <ul>
                     <li class="drop-down">
+<<<<<<< HEAD
                         <a href="#" class="login-btn" style="margin-top:0px;"><asp:Label ID="lblProfileId" runat="server" Text="User Profile"></asp:Label></a>
                         <ul>
                             <li><a href="LoanHomePage.aspx">Home</a></li>
                             <li><a href="Profile.aspx">Edit Profile</a></li>
                             <li><a href="HomePage.aspx">Sign out</a></li>
+=======
+                        <a href="#" class="login-btn" style="margin-top:0px;"><asp:Label ID="lblProfileId" runat="server" Text="Hello"></asp:Label></a>
+                        <ul>
+                            <li><a href="LoanHomePage.aspx">Home</a></li>
+                            <li><a href="Profile.aspx">Edit Profile</a></li>
+                            <li><a href="Logout.aspx">Sign out</a></li>
+>>>>>>> 301ea4275b126f38e68dc63c1cd16ff6b3e2d181
                         </ul>
                     </li>
                </ul>
@@ -74,12 +86,19 @@
      <br />
      <br />
 
+<<<<<<< HEAD
     <!-- Form -->
     <form id="EducationLoanDetailsPage" runat="server">
 
     <!--==========================
      1. Profile  Section
     ============================-->
+=======
+    <!--==========================
+     1. Profile  Section
+    ============================-->
+    <form id="EducationLoanDetailsPage" runat="server">
+>>>>>>> 301ea4275b126f38e68dc63c1cd16ff6b3e2d181
      <div class="card" style="width: 100%; ">
          
              <div class="container">

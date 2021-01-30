@@ -1079,3 +1079,20 @@ h6 {
     padding: 100px 0 20px 0;
   }
 }
+<<<<<<< HEAD
+=======
+
+/* Loan Section
+--------------------------------*/
+#goldloan_btn,
+#perloan_btn,
+#eduloan_btn,
+#homeloan_btn {
+    border: none;
+    background-color: #004A99;
+    color:#fff;
+    padding:8px 14px;
+    border-radius:12px;
+    cursor:pointer;
+}
+>>>>>>> 301ea4275b126f38e68dc63c1cd16ff6b3e2d181

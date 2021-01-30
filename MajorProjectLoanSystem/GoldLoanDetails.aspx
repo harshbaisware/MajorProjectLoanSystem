@@ -64,7 +64,11 @@
                         <ul>
                             <li><a href="LoanHomePage.aspx">Home</a></li>
                             <li><a href="Profile.aspx">Edit Profile</a></li>
+<<<<<<< HEAD
                             <li><a href="HomePage.aspx">Sign out</a></li>
+=======
+                            <li><a href="Logout.aspx">Sign out</a></li>
+>>>>>>> 301ea4275b126f38e68dc63c1cd16ff6b3e2d181
                         </ul>
                     </li>
                </ul>
